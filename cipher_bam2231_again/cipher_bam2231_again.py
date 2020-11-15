@@ -1,24 +1,24 @@
 def cipher(text, shift, encrypt=True):
-"""
-Encrypts words by shifting the direction of letters.
+    """
+    Encrypts words by shifting the direction of letters.
 
-Parameters:
------------
-text = Word whose letters will be converted. String.
-shift = Number of positions up/down the alphabet to shift letters. Int.
-encrypt = Direction of encryption. Boolean.
+    Parameters:
+    -----------
+    text = Word whose letters will be converted. String.
+    shift = Number of positions up/down the alphabet to shift letters. Int.
+    encrypt = Direction of encryption. Boolean.
 
-Examples:
------------
-cipher("testing", 1)
-"uftjoh"
+    Examples:
+    -----------
+    cipher("testing", 1)
+    "uftjoh"
 
-cipher("uftjoh", -1)
-"testing"
+    cipher("uftjoh", -1)
+    "testing"
 
-cipher("uftjoh", 1, encrypt = False)
-"testing"
-"""
+    cipher("uftjoh", 1, encrypt = False)
+    "testing"
+    """
     alphabet = 'abcdefghijklmnopqrstuvwyzABCDEFGHIJKLMNOPQRSTUVWYZ'
     new_text = ''
     for c in text:
