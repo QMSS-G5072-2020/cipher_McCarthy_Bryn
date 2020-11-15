@@ -22,11 +22,3 @@ pytest = "^6.1.2"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-
-[tool.poetry]
- ...
- readme = "README.md"
- documentation = 'https://qmsspkg.readthedocs.io'
- homepage = "https://github.com/QMSS-G5072-2020/cipher_bam2231_again"
- repository = "https://github.com/QMSS-G5072-2020/cipher_bam2231_again"
-
